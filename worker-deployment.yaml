@@ -11,7 +11,7 @@ metadata:
   selfLink: /apis/apps/v1/namespaces/default/deployments/worker
 spec:
   progressDeadlineSeconds: 600
-  replicas: 1
+  replicas: 10
   revisionHistoryLimit: 10
   selector:
     matchLabels:
